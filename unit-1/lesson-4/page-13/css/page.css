@@ -1,0 +1,163 @@
+:root {
+	--box-shadow: #cfcfcf;
+	--light-grey-text: #808284;
+}
+
+.page13 hr {
+	border: 3px solid var(--lesson-background-olive);
+	margin:0px;
+}
+.page13 dt {
+	font-weight: normal;
+}
+.page13 .section-border {
+	border-top: 7px solid var(--lesson-background-olive);
+}
+
+.page13 .border-title {
+	color: var( --lesson-background-olive);
+	background: #fff;
+	font-size: var(--font-9pt);
+	font-weight: bold;
+	padding-left: 8px;
+	font-family: Campton-Book;
+	width: auto;
+	float: right;
+	margin-top: -15px;
+}
+
+.page13 .section-border-all {
+	border: 3px solid var(--lesson-background-olive);
+	padding: 2%;
+	padding-bottom:0px;
+}
+
+.page13 .section-top-icon {
+	padding-right: 5px;
+	display: flex;
+	align-items: flex-end;
+	margin-left: -30px;
+	margin-bottom: 0px;
+	width: auto;
+	color: var(--lesson-background-olive);
+}
+
+
+.page13 .table th {
+	background: var( --lesson-background-olive);
+	color:#fff;
+}
+
+.page13 .table td {
+	background: #e9e9e1;
+	font-family: Campton-Light;
+	font-size: var(--font-9pt);
+}
+
+.page13 .table thead th {
+	border-bottom: 2px solid #fff;
+}
+
+.page13 .table-bordered th, .page13 .table-bordered td {
+	border: 2px solid #fff;
+	vertical-align: middle;
+}
+
+.page13 .table-bordered td label {
+	padding: 0;
+	margin: 0;
+}
+.page13 .section-activity37 ol{
+	padding-left:50px;
+}
+
+.page13 .section-activity37 li {
+	padding-left: 8px;
+}
+
+.page13 .section-activity37 li::marker {
+	font-family: Campton-SemiBold ;
+	font-size: var(--font-9pt);
+}
+
+.page13 .section-activity38 ul {
+	list-style-type: none;
+	padding-left: 15px;
+	margin: 0px;
+}
+
+.page13 .section-activity38 li{
+	padding-left:5px;
+}
+
+.page13 .section-activity38 li::marker {
+	font-family: Campton-Light;
+	font-size: var(--font-9pt);
+	content: '\2014';	
+}
+
+.page13 .section-activity39 ol {
+	padding-left: 18px;
+}
+
+.page13 .section-activity39 li::marker {
+	font-family: Campton-Semibold;
+	font-size: var(--font-9pt);
+}
+
+
+.page13 .bell-icon {
+	color: var(--lesson-background-olive);
+}
+
+.page13 .section-attention-blocks {
+	background-color: #c6c8b3;
+	padding: 1%;
+	padding-left: 3%;
+	margin: 0;
+	width: fit-content;
+}
+
+
+.page13 .spl-text {
+	color: #3F5795;
+	font-family: marydale;
+	font-size: var(--font-11pt);
+}
+.page13 .audio-trans-link {
+	cursor: pointer;
+	text-decoration: none;
+	color: #000;
+}
+
+.page13 .section-grey-box {
+	background: var(--lesson-grey2-bg);
+	padding:5px 0px 5px 10px;
+	height: 90%;
+}
+
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+	.page13 .border-title {
+		margin-left: 5px;
+	}
+	.page13 .section-top-icon {
+		margin-left: -17px;
+	}
+}
+
+/* Ipad devices (above 576px and below 768px) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+	.page13 .border-title {
+		margin-left: 5px;
+	}
+	.page13 .section-top-icon {
+		margin-left: -22px;
+	}
+}
+
+/* Desktop devices (768px and up) */
+@media only screen and (min-width: 768px) {
+}
+

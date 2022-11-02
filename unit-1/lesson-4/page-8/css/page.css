@@ -1,0 +1,103 @@
+:root {
+	--box-shadow: #cfcfcf;
+	--light-grey-text: #808284;
+}
+
+.page8 hr {
+	border: 3px solid var(--lesson-background-olive);
+	margin:0px;
+}
+.page8 dt {
+	font-weight: normal;
+}
+
+.page8 .section-border {
+	border: 3px solid var(--lesson-background-olive);
+	padding: 2%;
+}
+
+.page8 .section-top-icon {
+	padding-right: 5px;
+	display: flex;
+	align-items: flex-end;
+	margin-left: -30px;
+	margin-bottom: 0px;
+	width: auto;
+	color: var(--lesson-background-olive);
+}
+
+.page8 .bell-icon {
+	color: var(--lesson-background-olive);
+}
+
+.page8 .section-activity20 ul, .page8 .section-attention-blocks ul {
+	list-style-type: none;
+	padding-left: 25px;
+	margin: 0px;
+}
+
+.page8 .section-activity20 li::before, .page8 .section-attention-blocks li::before {
+	font-family: Lyon-Text-Black;
+	font-size: var(--font-9pt);
+	content: '\2014';
+	margin-left: -20px;
+	padding-right: 2px;
+}
+
+.page8 .section-attention-blocks {
+	background-color: #c6c8b3;
+	padding: 1%;
+	padding-left: 3%;
+	margin: 0;
+}
+
+.page8 .section-grey-box {
+	background: var(--lesson-grey2-bg);
+	padding-left:5px;
+}
+
+
+.page8 .table th {
+	background: #ffe581;
+}
+.page8 .table td {
+	background: #fff0bd;
+	font-family: Campton-Light;
+	font-size: var(--font-9pt);
+}
+
+.page8 .table thead th {
+	border-bottom: 2px solid #fff;
+}
+
+.page8 .table-bordered th, .page8 .table-bordered td {
+	border: 2px solid #fff;
+	vertical-align: middle;
+}
+
+.page8 .table-bordered td label{
+	padding:0;
+	margin:0;
+}
+.page8 .sesction20-spl-text {
+	color: #3F5795;
+	font-family: marydale;
+	font-size: var(--font-11pt);
+}
+
+
+/* Mobile devices (577px and down) */
+@media only screen and (max-width: 577px) {
+	.page8 .section-top-icon {
+			margin-left: -17px;
+		}
+	}
+	/* Ipad devices (above 577px and below 768px) */
+	@media only screen and (min-width: 576px) and (max-width: 768px) {
+		.page8 .section-top-icon {
+			margin-left: -22px;
+		}
+	}
+	/* Desktop devices (768px and up) */
+	@media only screen and (min-width: 768px) {
+	}

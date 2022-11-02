@@ -1,0 +1,23 @@
+
+:root {
+	--lesson-background: #000;
+	--lesson-color:#fff
+}
+
+
+.lesson-header {
+	background-color: var( --lesson-background);
+}
+
+.lessonName, .chapterIndex {
+	color: var( --lesson-color);
+	font-family: Campton-Book;
+}
+
+.page-no{
+	background:#000;
+	color:#fff;
+	font-size:12px;
+	padding:2px;
+	float:right;
+}

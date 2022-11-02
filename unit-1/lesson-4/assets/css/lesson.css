@@ -1,0 +1,33 @@
+
+:root {
+	--lesson-background-blue: #385963;
+	--lesson-background-olive: #597642;
+	--lesson-color: #fff;
+	--lesson-grey-bg: #d3d6d9;
+	--lesson-grey2-bg: #d7d7c9;
+	--lesson-grey3-bg: #c6c8b3;
+	--lesson-header-margin: 48px;
+}
+
+
+.lesson-header {
+	background-color: var( --lesson-background-olive);
+	margin-top: var(--lesson-header-margin);
+}
+
+.lessonName, .chapterIndex {
+	color: var( --lesson-color);
+	font-family: Campton-Book;
+}
+
+.chapterTitle {
+	color: var( --lesson-background-olive);
+}
+
+.page-no {
+	background: var( --lesson-background-olive);
+	color: #fff;
+	font-size: 12px;
+	padding: 2px;
+	float: right;
+}

@@ -1,0 +1,129 @@
+:root {
+	--box-shadow: #cfcfcf;
+	--light-grey-text: #808284;
+}
+
+.page9 hr {
+	border: 3px solid var(--lesson-background-olive);
+	margin:0px;
+}
+.page9 dt {
+	font-weight: normal;
+}
+.page9 .section-border {
+	border-top: 7px solid var(--lesson-background-olive);
+	margin-top: 15px;
+}
+
+.page9 .border-title {
+	color: var( --lesson-background-olive);
+	background: #fff;
+	font-size: var(--font-9pt);
+	font-weight: bold;
+	padding: 8px 0 0 8px;
+	font-family: Campton-Book;
+	width: auto;
+	float:right;
+	margin-top:-24px;
+}
+
+
+.page9 .settings-icon {
+	color: var(--lesson-background-olive);
+}
+
+.page9 .section-activity22 { 
+	margin-left: 60px;
+}
+
+.page9 .section-activity22 ul {
+	list-style-type: none;
+	margin: 0px;
+}
+
+.page9 .section-activity22 li {
+	color: #3F5795;
+	font-family: marydale;
+	font-size: var(--font-11pt);
+}
+.page9 .section-activity22 li::before {
+	font-family: Lyon-Text-Black;
+	font-size: var(--font-9pt);
+	content: '\2014';
+	margin-left: -20px;
+	padding-right: 2px;
+}
+
+.page9 .section-activity23{
+	margin-left: 40px;
+}
+
+.page9 .section-activity24 {
+	margin-left: 20px;
+}
+
+.page9 .section-activity23-comment {
+	background-color: var( --dark-grey-bg);
+	margin-left: 40px;
+	width: fit-content;
+}
+
+.page9 .section-activity23 .form-group{
+	margin-bottom:2px;
+}
+.page9 .section-activity23 label {
+	margin-bottom: 0px;
+}
+
+.page9 .section-settings-container{
+	bottom:0;
+	position:absolute;
+}
+
+.page9 .section-settings-blocks {
+	background: var(--lesson-grey3-bg);
+	padding: 8px;
+	margin-right: 6%;
+}
+
+
+.page9 .spl-text {
+	color: #3F5795;
+	font-family: marydale;
+	font-size: var(--font-11pt);
+}
+
+
+.page9 .section-activity24 li::marker {
+	font-family: Campton-ExtraBold;
+	font-size: var(--font-9pt);
+}
+
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+	.page9 .border-title {
+		margin-left: 5px;
+	}
+	.page9 .section-settings-container{
+		position:initial;
+		margin-left:40px;
+
+	}
+
+	.page9 .section-settings-blocks {
+			margin:0;
+	}
+}
+
+/* Ipad devices (above 576px and below 768px) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+	.page9 .border-title {
+		margin-left: 5px;
+	}
+}
+
+/* Desktop devices (768px and up) */
+@media only screen and (min-width: 768px) {
+}
+

@@ -1,0 +1,111 @@
+:root {
+	--sm: 576px;
+	--md: 768px;
+	--lg: 1024px;
+	--box-shadow: #cfcfcf;
+	--yellow-bg: #d5b700;
+	--light-yellow-bg: #e2c95f;
+	--text-yellow: #b28f04;
+}
+
+html, body {
+	background: var(--light-yellow-bg);
+}
+.page16 hr {
+	border: 3px solid #000;
+	margin:0px;
+}
+.page16 dt{
+	font-weight:normal;
+}
+
+.page16 .section-border-all {
+	border: 3px solid #d3bc59;
+	padding: 2%;
+}
+
+
+.page16 .main-section-bg {
+	background: #fff;
+	padding: 10px;
+	margin-top: 25px;
+}
+
+
+.page16 .section-top-icon {
+	padding-right: 5px;
+	display: flex;
+	align-items: flex-end;
+	margin-left: -30px;
+	margin-bottom: 0px;
+	width: auto;
+}
+
+.page16 .grey-bg {
+	background: #f1efed;
+	box-shadow: 5px 5px 10px var(--box-shadow);
+}
+
+
+.page16 .section-activity50 ol {
+	margin-left: 17px;
+	margin-bottom: 0px;
+}
+
+
+.page16 .audio-trans-link {
+	cursor: pointer;
+	text-decoration: none;
+	color: #000;
+	padding-right: 10px;
+	font-family: Campton-SemiBold;
+}
+
+.page16 .section-activity50 li::marker {
+	font-family: Campton-Book;
+	font-size: var(--font-9pt);
+	font-weight:bold;
+}
+
+.page16 .section-activity50 label{
+	display:block;
+}
+
+.page16 .section-attention-blocks {
+	background-color: #f2e3b4;
+	padding: 1%;
+	padding-left: 3%;
+	margin: 0;
+	width: fit-content;
+}
+
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+	.page16 .section-top-icon {
+		margin-left: -17px;
+	}
+	.page16 h1 {
+		font-size: var(--font-30pt);
+	}
+
+	.page16 .grey-content ul{
+		margin-right:30px;
+	}
+	.page16 .grey-content h2, .page16 .grey-content p {
+		margin-right: 30px;
+	}
+}
+
+/* Ipad devices (above 576px and below 768px) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+
+	.page16 .section-top-icon {
+		margin-left: -22px;
+	}
+}
+
+/* Desktop devices (768px and up) */
+@media only screen and (min-width: 768px) {
+}
+

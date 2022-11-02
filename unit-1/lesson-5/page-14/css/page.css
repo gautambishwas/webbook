@@ -1,0 +1,95 @@
+:root {
+	--sm: 576px;
+	--md: 768px;
+	--lg: 1024px;
+	--box-shadow: #cfcfcf;
+	--yellow-bg: #d5b700;
+	--text-yellow: #b28f04;
+}
+
+html,body {
+	background: var(--yellow-bg);
+}
+.page14 hr {
+	border: 3px solid #000;
+	margin:0px;
+}
+.page14 dt{
+	font-weight:normal;
+}
+
+.page14 .letterM-txt {
+	font-family: Campton-Medium;
+	line-height: 80px;
+	float: left;
+}
+
+.page14 .yellow-txt {
+	color: var(--text-yellow);
+	font-family: Campton-ExtraBold;
+	font-size: var(--font-9pt);
+	font-weight:bold;
+}
+
+.page14 .section-activity{
+	background:#fff;
+
+}
+
+.page14 .section-activity section {
+	margin-left: 15px;
+}
+
+.page14 .section-activity42 ol {
+	margin-left: 5px;
+}
+
+.page14 .section-activity42 li::marker {
+	font-family: Campton-Semibold;
+	font-size: var(--font-9pt);
+}
+
+.page14 .section-activity42 label {
+	margin-bottom: 0px;
+	display:block;
+}
+.page14 .section-activity42 .form-group {
+	margin-bottom: 2px;
+}
+
+.page14 .section-activity42-img img{
+	padding:2px;
+}
+
+.page14 .section-activity43-comment {
+	background-color: var( --dark-grey-bg);
+	margin-left: 40px;
+	width: fit-content;
+	width: -moz-fit-content;
+}
+
+.page14 .section-activity43 input{
+	margin-top:5px;
+	margin-left:25px;
+}
+
+.page14 .audio-trans-link {
+	cursor: pointer;
+	text-decoration: none;
+	color: #000;
+	padding-right: 10px;
+	font-family: Campton-SemiBold;
+}
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+}
+
+/* Ipad devices (above 576px and below 768px) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+	
+}
+
+/* Desktop devices (768px and up) */
+@media only screen and (min-width: 768px) {
+}

@@ -1,0 +1,140 @@
+:root {
+	--box-shadow: #cfcfcf;
+	--light-grey-text: #808284;
+}
+
+.page10 hr {
+	border: 3px solid var(--lesson-background-olive);
+	margin:0px;
+}
+.page10 dt {
+	font-weight: normal;
+}
+.page10 .section-border-title {
+	border-top: 7px solid var(--lesson-background-olive);
+}
+
+.page10 .border-title {
+	color: var( --lesson-background-olive);
+	background: #fff;
+	font-size: var(--font-9pt);
+	font-weight: bold;
+	padding: 0 0 0 8px;
+	font-family: Campton-Book;
+	width: auto;
+}
+.page10 .section-border {
+	border: 3px solid var(--lesson-background-olive);
+	padding: 2%;
+}
+
+.page10 .section-top-icon, .page10 .section-top-bulb-icon {
+	padding-right: 5px;
+	display: flex;
+	align-items: flex-end;
+	margin-left: -30px;
+	margin-bottom: 0px;
+	width: auto;
+	color: var(--lesson-background-olive);
+}
+
+.page10 .section-top-bulb-icon {
+	margin-top: -18px;
+}
+
+.page10 .bell-icon {
+	color: var(--lesson-background-olive);
+}
+
+.page10 .section-attention-blocks {
+	background-color: #c6c8b3;
+	padding: 1%;
+	padding-left: 3%;
+	margin: 0;
+}
+
+.page10 .section-grey-box {
+	background: var(--lesson-grey2-bg);
+	padding-left:5px;
+}
+
+
+.page10 .table th {
+	background: #ffe581;
+}
+.page10 .table td {
+	background: #fff0bd;
+	font-family: Campton-Light;
+	font-size: var(--font-9pt);
+}
+
+.page10 .table thead th {
+	border-bottom: 2px solid #fff;
+}
+
+.page10 .table-bordered th, .page10 .table-bordered td {
+	border: 2px solid #fff;
+	vertical-align: middle; 
+}
+
+.page10 .section-cafeteria {
+	border: 2px dashed #808284;
+	padding: 4%;
+	font-family: Stag-Light;
+	font-size: var(--font-12pt);
+	color: #808284;
+}
+
+.page10 .section-cafeteria .section-top-icon {
+	color: #939597;
+}
+
+.page10 input[type="checkbox"] {
+	-webkit-appearance: initial;
+	appearance: initial;
+	background: #F5E1DA;
+	width: 20px;
+	height: 20px;
+	border: none;
+	position: relative;
+	cursor:pointer;
+	vertical-align:middle;
+}
+
+	.page10 input[type="checkbox"]:checked {
+		background: none;
+		text-align: center;
+	}
+
+.page10 input[type="checkbox"]:checked:after {
+	content: "\f00d";
+	font-family: Font-Awesome-5-Free-Solid-900;
+}
+
+
+	/* Mobile devices (577px and down) */
+	@media only screen and (max-width: 577px) {
+		.page10 .section-top-icon {
+			margin-left: -24px;
+		}
+		.page10 .section-top-bulb-icon {
+			margin-top: -10px;
+			margin-left: -26px;
+		}
+		.page10 .section-cafeteria {
+			width: 100% !important;
+		}
+	}
+	/* Ipad devices (above 577px and below 768px) */
+	@media only screen and (min-width: 576px) and (max-width: 768px) {
+		.page10 .section-top-icon {
+			margin-left: -22px;
+		}
+		.page10 .section-top-bulb-icon {
+			margin-top: -10px;
+			margin-left: -23px;
+		}
+	}
+	/* Desktop devices (768px and up) */
+	@media only screen and (min-width: 768px) {
+	}

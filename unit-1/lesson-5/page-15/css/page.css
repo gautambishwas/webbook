@@ -1,0 +1,86 @@
+:root {
+	--sm: 576px;
+	--md: 768px;
+	--lg: 1024px;
+	--box-shadow: #cfcfcf;
+	--yellow-bg: #d5b700;
+	--text-yellow: #b28f04;
+}
+
+html,body {
+	background: var(--yellow-bg);
+}
+.page15 hr {
+	border: 3px solid #000;
+	margin:0px;
+}
+.page15 dt{
+	font-weight:normal;
+}
+.page15 .top-heading-content{
+	line-height:26px;
+}
+
+.page15 .yellow-txt {
+	color: var(--text-yellow);
+	font-family: Campton-ExtraBold;
+	font-size: var(--font-9pt);
+	font-weight: bold;
+}
+
+.page15 .section-left-bottom-txt{
+	position:absolute;
+	bottom:0;
+}
+
+.page15 .section-activity {
+	background: #fff;
+}
+
+.page15 .section-activity section {
+	margin-left: 15px;
+}
+
+.page15 .section-activity47 ol {
+	margin-left: 5px;
+}
+
+.page15 .section-activity47 li {
+	padding-left:5px;
+}
+
+.page15 .section-activity47 li::marker {
+	font-family: Campton-Semibold;
+	font-size: var(--font-9pt);
+}
+
+
+.page15 .section-activity47 label {
+	margin-bottom: 0px;
+	display: block;
+}
+
+
+.page15 .section-activity48 li {
+	background: var(--yellow-bg);
+	padding: 0px 5px 0px 5px;
+	font-family: Campton-SemiBold;
+	font-weight: bold;
+}
+
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+	.page15 .section-left-bottom-txt{
+		position:initial;
+	}
+}
+
+/* Ipad devices (above 576px and below 768px) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+	
+}
+
+/* Desktop devices (768px and up) */
+@media only screen and (min-width: 768px) {
+}

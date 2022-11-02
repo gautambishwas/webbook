@@ -1,0 +1,395 @@
+:root {
+	--font-color: #000;
+	--sm: 576px;
+	--md: 768px;
+	--lg: 1024px;
+	--font-6pt: 10px;
+	--font-8pt: 14px;
+	--font-9pt: 16px;
+	--font-11pt: 20px;
+	--font-12pt: 22px;
+	--font-28_7pt: 52px;
+	--font-21_8pt: 38px;
+	--font-30pt: 54px;
+	--font-45pt: 82px;
+}
+
+html {
+	color: var( --font-color);
+	overflow-x: hidden;
+	margin: 0 auto;
+	max-width: 1024px;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+@font-face {
+	font-family: 'Font-Awesome-5-Free-Solid-900';
+	src: url('../fonts/Font-Awesome-5-Free-Solid-900.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'FontAwesome';
+	src: url('../fonts/FontAwesome.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Campton-LightItalic';
+	src: url('../fonts/Campton-LightItalic.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Lyon Text-Regular';
+	src: url('../fonts/Lyon Text-Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Lyon Text-Regular Italic';
+	src: url('../fonts/Lyon Text-Regular Italic.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Stag-Light';
+	src: url('../fonts/Stag-Light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Stag-Book';
+	src: url('../fonts/Stag-Book.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Campton-Book';
+	src: url('../fonts/Campton-Book.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Campton-ExtraBold';
+	src: url('../fonts/Campton-ExtraBold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Campton-Black';
+	src: url('../fonts/Campton-Black.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Campton-SemiBold';
+	src: url('../fonts/Campton-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Campton-Light';
+	src: url('../fonts/Campton-Light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Campton-Bold';
+	src: url('../fonts/Campton-Bold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'marydale';
+	src: url('../fonts/marydale.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Lyon Text-Bold';
+	src: url('../fonts/Lyon Text-Bold.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Lyon Text-Black';
+	src: url('../fonts/Lyon Text-Black.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Campton-Medium';
+	src: url('../fonts/Campton-Medium.otf') format('opentype');
+}
+.Campton-Book {
+	font-family: Campton-Book;
+}
+
+.Campton-ExtraBold {
+	font-family: Campton-ExtraBold;
+}
+
+.Campton-Black {
+	font-family: Campton-Black;
+}
+
+.Campton-SemiBold {
+	font-family: Campton-SemiBold;
+}
+
+.Campton-Bold {
+	font-family: Campton-Bold;
+}
+
+.Campton-Light {
+	font-family: Campton-Light;
+}
+
+.Campton-LightItalic {
+	font-family: Campton-LightItalic;
+}
+
+.Campton-Medium {
+	font-family: Campton-Medium;
+}
+
+.Lyon-Text-Bold {
+	font-family: Lyon Text-Bold;
+}
+
+.Lyon-Text-Regular {
+	font-family: Lyon Text-Regular;
+}
+
+.Lyon-Text-Regular Italic {
+	font-family: Lyon Text-Regular Italic;
+}
+
+.Lyon-Text-Black {
+	font-family: Lyon Text-Black;
+}
+
+.Stag-Light {
+	font-family: Stag-Light;
+}
+
+.Stag-Book {
+	font-family: Stag-Book;
+}
+
+.marydale {
+	font-family: marydale;
+}
+
+/*For font-size = 14pts,
+14 * 1.8 = 25.2
+rounding off 25.2 to nearest even number = 26px
+*/
+.font-14pt {
+	font-size: 26px;
+}
+
+/*For font-size = 9pts,
+9 * 1.8 = 16.2
+rounding off 16.2 to nearest even number = 16px
+*/
+
+.font-9pt {
+	font-size: 16px;
+}
+
+/*For font-size = 8pts,
+8 * 1.8 = 14.4
+rounding off 14.4 to nearest even number = 14px
+*/
+
+.font-8pt {
+	font-size: 14px;
+}
+
+/*For font-size = 6pts,
+6 * 1.8 = 10.8
+rounding off 10.8 to nearest even number = 10px
+*/
+.font-6pt {
+	font-size: 10px;
+}
+
+/*For font-size = 11pts,
+11 * 1.8 = 19.8
+rounding off 19.8 to nearest even number = 20px
+*/
+.font-11pt {
+	font-size: 20px;
+}
+
+/*For font-size = 12pts,
+12 * 1.8 = 21.6
+rounding off 21.6 to nearest even number = 22px
+*/
+.font-12pt {
+	font-size: 22px;
+}
+
+/*For font-size = 9.5pts,
+9.5 * 1.8 = 17.1
+rounding off 17.1 to nearest even number = 18px
+*/
+.font-9_5pt {
+	font-size: 18px;
+}
+
+/*For font-size = 28.7pts,
+28.7 * 1.8 = 51.6
+rounding off 51.6 to nearest even number = 52px
+*/
+.font-28_7pt {
+	font-size: 52px;
+}
+/*For font-size = 30pts,
+30 * 1.8 = 54
+*/
+.font-30pt {
+	font-size: 54px;
+}
+/*For font-size = 45.29pts,
+45.29 * 1.8 = 81.52
+rounding off 81.52 to nearest even number = 82px
+*/
+.font-45_29pt {
+	font-size: 82px;
+}
+
+/*Fontawesome css for icons*/
+
+.fa, .fab, .fad, .fal, .far, .fas {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	line-height: 1
+}
+
+.fa {
+	font-family: FontAwesome;
+}
+
+
+.fas {
+	font-family: Font-Awesome-5-Free-Solid-900;
+}
+
+.fa-lg {
+	font-size: 1.33333em;
+	line-height: .75em;
+	vertical-align: -.0667em
+}
+
+.fa-xs {
+	font-size: .75em
+}
+
+.fa-sm {
+	font-size: .875em
+}
+
+.fa-1x {
+	font-size: 1em
+}
+
+.fa-2x {
+	font-size: 2em
+}
+
+.fa-3x {
+	font-size: 3em
+}
+
+.fa-4x {
+	font-size: 4em
+}
+
+.fa-5x {
+	font-size: 5em
+}
+
+.fa-6x {
+	font-size: 6em
+}
+
+.fa-7x {
+	font-size: 7em
+}
+
+.fa-8x {
+	font-size: 8em
+}
+
+.fa-9x {
+	font-size: 9em
+}
+
+.fa-10x {
+	font-size: 10em
+}
+
+.fa-users:before {
+	content: "\f0c0"
+}
+
+.fa-comment-o:before {
+	/*content: "\f0e5"*/
+	content: "\f075";
+	color: #fff;
+}
+
+.fa-comments-o:before {
+	content: "\f0e6"
+}
+
+.fa-bell:before {
+	content: "\f0f3"
+}
+
+.fa-thumbs-up:before {
+	content: "\f164"
+}
+
+.fa-thumbs-down:before {
+	content: "\f165"
+}
+
+.fa-home:before {
+	content: "\f015"
+}
+
+.fa-video:before {
+	content: "\f03d"
+}
+
+.fa-copy:before {
+	content: "\f0c5"
+}
+
+.fa-user-friends:before {
+	content: "\f500"
+}
+
+.fa-coffee:before {
+	content: "\f0f4"
+}
+
+.fa-volume-up:before {
+	content: "\f028"
+}
+
+.fa-times:before {
+	content: "\f00d"
+}
+
+.fa-cogs:before {
+	content: "\f085"
+}
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+	.font-14pt {
+		font-size: 20px;
+	}
+}
+
+/* Ipad devices (768px and up) */
+@media only screen and (min-width: var(--md)) {
+}
+
+/* Desktop devices (1024px and up) */
+@media only screen and (min-width: var(--lg)) {
+}

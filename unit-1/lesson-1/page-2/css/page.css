@@ -1,0 +1,53 @@
+:root {
+	--sm: 576px;
+	--md: 768px;
+	--lg: 1024px;
+	--box-shadow: #cfcfcf;
+	--yellow-bg: #d5b700;
+	--light-yellow-bg: #e2c95f;
+	--text-yellow: #b28f04;
+}
+
+html, body {
+	background: #000;
+	color:white;
+}
+.page2 dt{
+	font-weight:normal;
+}
+
+.page2 .list-container {
+	margin-bottom: 80px;
+}
+
+.p-2 > h2{
+	background-color: white;
+	color: #000;
+	
+}
+
+.header-image{
+ margin-right: auto;
+ margin-left: auto;
+}
+
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+
+	.page2 h1 {
+		overflow-wrap: break-word;
+	}
+
+	.header-desc.font-30pt {
+		font-size: 30px;
+	}
+}
+
+/* Ipad devices (above 576px and below 768px) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+	
+}
+
+/* Desktop devices (768px and up) */
+@media only screen and (min-width: 768px) {
+}

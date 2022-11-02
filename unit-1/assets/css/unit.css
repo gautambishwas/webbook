@@ -1,0 +1,22 @@
+:root {
+	--highlight-yellow: #ffea9f;
+	--highlight-blue: #9ddcf9;
+	--light-blue-bg: #e7f2f6;
+	--grey-bg: #c7c8ca;
+	--dark-grey-bg: #bcbec0;
+	--light-grey-bg: #e6e7e8;
+	--light-grey2-bg: #f1f1f2;
+	--blue-text-color: #3F5795;
+}
+
+.text-highlight-yellow {
+	background-color: var( --highlight-yellow);
+}
+
+.text-highlight-blue {
+	background-color: var( --highlight-blue);
+}
+
+.text-highlight-dark-grey {
+	background-color: var( --dark-grey-bg);
+}

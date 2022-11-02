@@ -1,0 +1,71 @@
+:root {
+	--sm: 576px;
+	--md: 768px;
+	--lg: 1024px;
+	--box-shadow: #cfcfcf;
+	--yellow-bg: #d5b700;
+	--light-yellow-bg: #e2c95f;
+	--text-yellow: #b28f04;
+}
+
+html, body {
+	background: var(--light-yellow-bg);
+	color:#000;
+}
+.page19 hr {
+	border: 3px solid #000;
+	margin:0px;
+}
+.page19 dt{
+	font-weight:normal;
+}
+
+.page19 .form-background {
+	background: #fcf8ee;
+	box-shadow: 5px 5px 10px var(--box-shadow);
+}
+
+.page19 .form-image1 {
+	width: 100%;
+	display: flex;
+}
+
+.page19 .form-image1 img {
+	width: 100%;
+}
+
+.page19 .section-activityA-img img{
+	padding:4px;
+}
+
+.page19 .section-activity {
+	background: #fff;
+}
+
+
+.page19 .section-activityA .flex-fill {
+	background: #fff;
+	padding: 5px;
+	margin-left: 5px;
+	display: inline-block;
+}
+
+.page19 .section-activityA .textarea{
+	height:100px;
+}
+/* Mobile devices (576px and down) */
+@media only screen and (max-width: 576px) {
+
+	.page19 h1 {
+		overflow-wrap: break-word;
+	}
+}
+
+/* Ipad devices (above 576px and below 768px) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+	
+}
+
+/* Desktop devices (768px and up) */
+@media only screen and (min-width: 768px) {
+}

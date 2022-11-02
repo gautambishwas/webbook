@@ -1,0 +1,104 @@
+:root {
+	--box-shadow: #cfcfcf;
+	--light-grey-text: #808284;
+	--img-grey2-bg: #f2f2ed;
+}
+
+.page11 hr {
+	border: 3px solid var(--lesson-background-olive);
+	margin:0px;
+}
+.page11 dt {
+	font-weight: normal;
+}
+.page11 .section-border-title {
+	border-top: 7px solid var(--lesson-background-olive);
+}
+
+.page11 .border-title {
+	color: var( --lesson-background-olive);
+	background: #fff;
+	font-size: var(--font-9pt);
+	font-weight: bold;
+	padding-left: 8px;
+	font-family: Campton-Book;
+	width: auto;
+	float: right;
+	margin-top: -15px;
+}
+.page11 .section-border {
+	border: 3px solid var(--lesson-background-olive);
+	padding: 2%;
+}
+
+.page11 .section-top-icon {
+	padding-right: 5px;
+	display: flex;
+	align-items: flex-end;
+	margin-left: -30px;
+	margin-bottom: 0px;
+	width: auto;
+	color: var(--lesson-background-olive);
+}
+
+.page11 .section-activity28 label{
+	margin-bottom:2px;
+}
+
+.page11 .section-activity28 .form-group {
+	margin-bottom: 6px;
+}
+
+.page11 .section-activity28 .form-control {
+	padding: 3px;
+}
+
+.page11 .section-activity28 ol, .page11 .section-activity29 ol {
+	margin: 0px;
+	padding: 0px;
+	padding-left: 17px;
+}
+
+
+.page11 .section-activity28 li::marker, .page11 .section-activity29 li::marker {
+	font-family: Campton-Book;
+	font-weight: bold;
+	font-size: var(--font-9pt);
+}
+
+
+.page11 .section-grey-box {
+	background: var(--img-grey2-bg);
+}
+
+.page11 .section-activity29-img div{
+	padding:2px;
+
+}
+
+.page11 .section-activity29-img img{
+	margin-bottom:3px;
+
+}
+
+
+/* Mobile devices (577px and down) */
+@media only screen and (max-width: 577px) {
+	.page11 .section-top-icon {
+		margin-left: -17px;
+	}
+}
+/* Ipad devices (above 577px and below 768px) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+	.page11 .section-top-icon {
+		margin-left: -22px;
+	}
+
+	.page11 .section-activity28 img {
+		width: 95%;
+		float: right;
+	}
+}
+/* Desktop devices (768px and up) */
+@media only screen and (min-width: 768px) {
+}
