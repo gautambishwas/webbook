@@ -1,0 +1,84 @@
+{
+  "page-sets": [
+    {
+      "start-page-no": 2,
+      "end-page-no": 2,
+      "path": "unit-1/lesson-1/page-2"
+    },
+    {
+      "start-page-no": 3,
+      "end-page-no": 3,
+      "path": "unit-1/lesson-2/page-3"
+    },
+    {
+      "start-page-no": 4,
+      "end-page-no": 4,
+      "path": "unit-1/lesson-2/page-4"
+    },
+    {
+      "start-page-no": 5,
+      "end-page-no": 5,
+      "path": "unit-1/lesson-2/page-5"
+    },
+    {
+      "start-page-no": 6,
+      "end-page-no": 7,
+      "path": "unit-1/lesson-3/page-6-7"
+    },
+    {
+      "start-page-no": 8,
+      "end-page-no": 8,
+      "path": "unit-1/lesson-4/page-8"
+    },
+    {
+      "start-page-no": 9,
+      "end-page-no": 9,
+      "path": "unit-1/lesson-4/page-9"
+    },
+    {
+      "start-page-no": 10,
+      "end-page-no": 10,
+      "path": "unit-1/lesson-4/page-10"
+    },
+    {
+      "start-page-no": 11,
+      "end-page-no": 11,
+      "path": "unit-1/lesson-4/page-11"
+    },
+    {
+      "start-page-no": 12,
+      "end-page-no": 12,
+      "path": "unit-1/lesson-4/page-12"
+    },
+    {
+      "start-page-no": 13,
+      "end-page-no": 13,
+      "path": "unit-1/lesson-4/page-13"
+    },
+    {
+      "start-page-no": 14,
+      "end-page-no": 14,
+      "path": "unit-1/lesson-5/page-14"
+    },
+    {
+      "start-page-no": 15,
+      "end-page-no": 15,
+      "path": "unit-1/lesson-5/page-15"
+    },
+    {
+      "start-page-no": 16,
+      "end-page-no": 17,
+      "path": "unit-1/lesson-6/page-16-17"
+    },
+    {
+      "start-page-no": 18,
+      "end-page-no": 18,
+      "path": "unit-1/lesson-7/page-18"
+    },
+    {
+      "start-page-no": 19,
+      "end-page-no": 19,
+      "path": "unit-1/lesson-7/page-19"
+    }
+  ]
+}
